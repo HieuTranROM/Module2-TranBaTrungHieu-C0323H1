@@ -10,6 +10,7 @@ public class Student {
         classes = "CO2";
     }
 
+
     public String getName() {
         return name;
     }
