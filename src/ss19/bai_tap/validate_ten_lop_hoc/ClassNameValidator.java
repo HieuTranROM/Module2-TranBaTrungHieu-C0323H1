@@ -23,3 +23,31 @@ public class ClassNameValidator {
         System.out.println(invalidClassName2 + " is valid: " + isValidClassName(invalidClassName2));
     }
 }
+
+//package controller;
+//
+//import models.Student;
+//import service.StudentService;
+//
+//import java.time.LocalDate;
+//import java.util.List;
+//
+//public class StudentController {
+//    private StudentService studentService = new StudentService();
+//
+//    public List<Student> getAllStudents() {
+//        return studentService.getAllStudents();
+//    }
+//
+//    public void addStudent(String name, LocalDate dob, String gender, String phone, int courseId) {
+//        List<Student> students = studentService.getAllStudents();
+//        int id = students.isEmpty() ? 1 : students.get(students.size() - 1).getId() + 1;
+//        Student student = new Student(id, name, dob, gender, phone, courseId);
+//        studentService.addStudent(student);
+//    }
+//
+//    public void removeStudent(int id) {
+//        studentService.removeStudent(id);
+//    }
+//}
+
